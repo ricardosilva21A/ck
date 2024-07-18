@@ -1,0 +1,39 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clicker-area {
+  margin: 20px;
+}
+
+.click-button {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.upgrade-menu {
+  margin: 20px;
+}
+
+.stats-panel {
+  margin: 20px;
+}
+
+.shop, .missions, .settings {
+  margin: 20px;
+}
