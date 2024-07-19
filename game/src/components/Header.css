@@ -1,0 +1,38 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav {
+    margin-bottom: 10px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .start-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #45a049;
+  }
+  

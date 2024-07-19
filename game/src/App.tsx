@@ -4,9 +4,6 @@ import Header from './components/Header';
 import ClickerArea from './components/ClickerArea';
 import UpgradeMenu from './components/UpgradeMenu';
 import StatsPanel from './components/StatsPanel';
-import Shop from './components/Shop';
-import Missions from './components/Missions';
-import Settings from './components/Settings';
 
 function App() {
   const [cookies, setCookies] = useState(0);
@@ -38,9 +35,6 @@ function App() {
         upgradeCost={upgradeCost} 
         nextClickValue={nextClickValue} 
       />
-      <Shop />
-      <Missions />
-      <Settings />
     </div>
   );
 }
